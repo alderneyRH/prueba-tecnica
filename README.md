@@ -173,7 +173,7 @@ Started loyaltyapi
 ✉️ Contacto
 
 Alderney Ramirez - alderneyramirez@gmail.com
-Link del Proyecto:
+Link del Proyecto: https://github.com/alderneyRH/prueba-tecnica/tree/main
 
 
 🙏 Agradecimientos
