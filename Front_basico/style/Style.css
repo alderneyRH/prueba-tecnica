@@ -1,0 +1,114 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #1a1a1a, #2c3e50);
+  color: #333;
+}
+
+/* Contenedor principal */
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  transition: transform 0.2s;
+}
+
+.container:hover {
+  transform: translateY(-3px);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 24px;
+  color: #2c3e50;
+  letter-spacing: 1px;
+}
+
+/* Formulario */
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+.form .full-width {
+  grid-column: span 2;
+}
+
+/* Labels */
+label {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #444;
+  display: block;
+}
+
+/* Inputs y Selects */
+input, select {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 15px;
+  background: #fafafa;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus, select:focus {
+  border-color: #caa056; /* Dorado corporativo */
+  box-shadow: 0 0 6px rgba(202,160,86,0.5);
+  outline: none;
+}
+
+/* Botón */
+button {
+  grid-column: span 2;
+  margin-top: 20px;
+  padding: 14px;
+  border: none;
+  background: #2c3e50; /* Azul oscuro corporativo */
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: #caa056; /* Dorado elegante */
+  color: #2c3e50;
+}
+
+/* Invitación cálida */
+.invitation {
+  background: #fdf7ed;
+  border-left: 5px solid #caa056; /* dorado corporativo */
+  padding: 16px 18px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #444;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.invitation p {
+  margin: 0;
+  font-weight: 500;
+}
+
+.invitation p strong {
+  color: #2c3e50;
+}

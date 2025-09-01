@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Fidelizacion</title>
+    <link rel="stylesheet" href="/style/Style.css">
+    <script src = "Js/functions.js"></script>
+</head>
+<body>
+     <main class="container">
+    <h1>Registro al Programa de Fidelidad</h1>
+
+     <div class="invitation">
+    
+      <p>
+       ¡Únete a nuestra familia de moda!  
+      Disfruta de beneficios exclusivos, descuentos especiales y la mejor experiencia al ser parte de nuestra comunidad.  
+       Porque tu estilo merece un trato VIP.
+    </p>
+
+  </div>
+    <form class="form" id="registroForm">
+      
+      <!-- Tipo de identificación -->
+      <label for="tipoId">Tipo de Identificación</label>
+      <select id="tipoId" name="tipoId" required>
+        <option value="">Seleccione...</option>
+      </select>
+
+      <!-- Número de identificación -->
+      <label for="numeroId">Número de Identificación</label>
+      <input type="text" id="numeroId" name="numeroId" required>
+
+      <!-- Nombres -->
+      <label for="nombres">Nombres</label>
+      <input type="text" id="nombres" name="nombres" required>
+
+      <!-- Apellidos -->
+      <label for="apellidos">Apellidos</label>
+      <input type="text" id="apellidos" name="apellidos" required>
+
+      <!-- Fecha de nacimiento -->
+      <label for="fechaNacimiento">Fecha de Nacimiento</label>
+      <input type="date" id="fechaNacimiento" name="fechaNacimiento" required>
+
+      <!-- Dirección -->
+      <label for="direccion">Dirección</label>
+      <input type="text" id="direccion" name="direccion">
+
+      <!-- País -->
+      <label for="pais">País</label>
+      <select id="pais" name="pais" required>
+        <option value="">Seleccione...</option>
+
+      </select>
+
+      <!-- Departamento -->
+      <label for="departamento">Departamento</label>
+      <select id="departamento" name="departamento" required>
+        <option value="">Seleccione...</option>
+      </select>
+
+      <!-- Ciudad -->
+      <label for="ciudad">Ciudad</label>
+      <select id="ciudad" name="ciudad" required>
+        <option value="">Seleccione...</option>
+      </select>
+
+      <!-- Marca -->
+      <label for="marca">Marca</label>
+      <select id="marca" name="marca" required>
+        <option value="">Seleccione...</option>
+      </select>
+
+      <!-- Botón -->
+      <button type="submit" id="submitBtn">Registrarse</button>
+    </form>
+    
+    <div id="message"></div>
+  
+    </main>
+  <script src="/Js/main.js"></script>
+</body>
+</html>
